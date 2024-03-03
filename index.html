@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div>Content here</div>
+
+    <div id="copyright"></div>
+
+    <script>
+      const paragraph = `
+      <p>
+        Copyright &copy; ${new Date().getFullYear()} John Doe
+      </p>
+    `;
+
+      document.getElementById('copyright').innerHTML = paragraph;
+    </script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
